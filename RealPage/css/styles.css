@@ -9,6 +9,9 @@
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ 
+ 
+ ㅎㅇㅎㅇ
  */
 :root {
   --bs-blue: #0d6efd;
@@ -44,7 +47,7 @@
   
  /* background:--bs-dark*/
 
-  --bs-primary-rgb: 26, 188, 156;
+  --bs-primary-rgb: 193, 244, 197;
   --bs-secondary-rgb:  /* 44, 62, 80;*/ 101,193,140;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -11511,3 +11514,8 @@ html {
 .copyright {
   background-color: #65c18c/*#1a252f;*/
 }
+
+/*마우스 커서 바꾸는 코드 */
+html, body { cursor: url(../images/img/cursor.cur), auto;}
+a, a:link { cursor: url('./images/cursor2.cur'), auto;} a:hover, a:focus { cursor: url('./images/cursor2.cur'), auto;}
+a:active {cursor: url('./images/cursor2.cur'), auto;}
